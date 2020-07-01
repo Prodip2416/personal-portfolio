@@ -11,7 +11,6 @@ h1{
 }
 section{
     height: 700px;  
-    /* display: inline; */
 }
 .header-color{
     color: #EC4D85;
@@ -29,7 +28,6 @@ section{
 }
 .half-width img{
     width: 80%;
-    /* margin-top: -10px; */
 }
 #intro{
     background-image: url("images/header-bg.png");
@@ -40,9 +38,9 @@ section{
 p{
     color: dimgray;
 }
-.link-button{
+.link-button{ 
     color: white;
-    background-image: linear-gradient(90deg, #df7198,#e72c6e );
+    background-image: linear-gradient(90deg, #ee5e98,#e72c6e );
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 5px;
@@ -83,7 +81,6 @@ h2{
 }
 #clientSay{
     height: 450px;
-    /* margin-top: -50px; */
     margin-left: 5%;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
@@ -91,7 +88,7 @@ h2{
     background-size: cover;
 }
 .clientSay-div{
-    background-color: rgb(238, 231, 231);
+    background-color: rgba(250, 243, 241, 0.329);
     width: 30%;
     float: left;
     margin-right: 2%;
@@ -106,12 +103,11 @@ q{
     font-family:  cursive;
 }
 #messsage{
-    width: 40%;
-    margin: 400px 500px 130px 350px;
-    background-color: #e72c6e;
+    margin: 400px 500px 130px 250px;
+    background-image: linear-gradient(90deg, #EC5196, #EC4B75);
     border-radius: 10px;
     color:white;
-    padding: 20px 20px 20px 20px;
+    padding: 15px 25px 30px 15px;
     text-align: center;
 }
 .smallText{
