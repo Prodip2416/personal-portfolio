@@ -9,7 +9,7 @@ h1{
     margin: 15px;
 }
 section{
-    height: 500px;  
+    height: 550px;  
     /* display: inline; */
 }
 .header-color{
@@ -23,12 +23,13 @@ section{
     padding-left: 2%;
 }
 .half-width img{
-    width: 75%;
+    width: 70%;
 }
-.intro-section{
-    background-image: url(images/header-bg.png);
+#intro{
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 p{
     color: dimgray;
@@ -39,13 +40,75 @@ p{
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 5px;
- 
 }
-.bio-section{
-    background-image: url(images/biography-bg.png);
+#biography{
+    background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
+    background-size: cover; 
 }
 .bio-padding{
     padding-top: 100px;
+}
+#work{
+    height: 500px;
+    margin-left: 5%;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(10, 10, 10, 0.836);
+}
+.work-div img{
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 40px;
+}
+#clientSay{
+    height: 700px;
+    margin-left: 5%;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.clientSay-div{
+    background-color: whitesmoke;
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 40px;
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+}
+#messsage{
+    width: 40%;
+    margin: 400px 500px 130px 350px;
+    background-color: #e72c6e;
+    border-radius: 10px;
+    color:white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+.smallText{
+    font-size: 12px;
+    color: white;
+}
+.email{
+    font-size: 25px;
+    color: white;
+}
+#clientSay p{
+    text-align: center;
+    font-size: 15px;
 }
